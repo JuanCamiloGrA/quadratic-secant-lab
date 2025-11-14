@@ -11,7 +11,7 @@ Aplicación construida con **SvelteKit + Tailwind + LayerChart** que permite est
 
 ## Requisitos previos
 
-- [Bun](https://bun.sh/) ≥ 1.0 (Usado por mi originalmente, recomendado por su integración rápida con SvelteKit). También puedes usar npm/pnpm si lo prefieres.
+- [Deno](https://deno.land/) ≥ 1.0 (Usado por mi originalmente, recomendado por su integración rápida con SvelteKit). También puedes usar npm/pnpm si lo prefieres.
 - Node.js 22+ (solo si utilizas npm/pnpm).
 
 ## Instalación

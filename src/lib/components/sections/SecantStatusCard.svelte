@@ -7,7 +7,6 @@
 	export let secantResult: SecantResult;
 	export let totalIterations: number;
 	export let selectedIteration: SecantIteration | undefined;
-	export let badgeTone: Tone;
 	export let badgeLabel: string;
 	export let toneClasses: string;
 	export let BadgeIcon: any;

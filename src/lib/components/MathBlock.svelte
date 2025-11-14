@@ -26,7 +26,7 @@
 </script>
 
 <span
-  class="text-balance text-center text-muted-foreground"
+  class="text-balance text-center text-white"
   class:inline-block={inline}
   class:block={!inline}
   role="img"
