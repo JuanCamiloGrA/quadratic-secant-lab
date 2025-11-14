@@ -11,8 +11,8 @@ Aplicación construida con **SvelteKit + Tailwind + LayerChart** que permite est
 
 ## Requisitos previos
 
-- [Bun](https://bun.sh/) ≥ 1.0 (recomendado por su integración rápida con SvelteKit). También puedes usar npm/pnpm si lo prefieres.
-- Node.js 18+ (solo si utilizas npm/pnpm).
+- [Bun](https://bun.sh/) ≥ 1.0 (Usado por mi originalmente, recomendado por su integración rápida con SvelteKit). También puedes usar npm/pnpm si lo prefieres.
+- Node.js 22+ (solo si utilizas npm/pnpm).
 
 ## Instalación
 
@@ -37,18 +37,3 @@ bun run build
 # Vista previa local del build
 bun run preview
 ```
-
-## Estructura relevante
-
-- `src/routes/+page.svelte`: página principal con toda la UI interactiva.
-- `src/lib/math.ts`: utilidades numéricas (fórmula cuadrática y secante).
-- `src/lib/components/MathBlock.svelte`: wrapper ligero para renderizar fórmulas KaTeX.
-- `src/app.css`: configuración de Tailwind 4 con los temas y colores del dashboard.
-
-## Próximos pasos sugeridos
-
-- Ajustar estilos o paletas desde `app.css` para adaptar la UI a tu identidad visual.
-- Añadir persistencia (por ejemplo, guardando presets personalizados en `localStorage`).
-- Extender el laboratorio con otros métodos (Newton-Raphson, bisección) reutilizando la misma arquitectura.
-
-¡Disfruta explorando las raíces cuadráticas con una experiencia digna de una app premium! 
