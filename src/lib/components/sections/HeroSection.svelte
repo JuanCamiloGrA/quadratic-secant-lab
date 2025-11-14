@@ -36,7 +36,7 @@
 		</div>
 		<div class="flex flex-1 flex-col gap-4">
 			<div class="rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-center backdrop-blur">
-				<p class="text-xs uppercase tracking-widest text-white/80">Fórmula general</p>
+				<p class="text-xs uppercase tracking-widest text-white/80">Fórmula cuadrática</p>
 				<MathBlock expression={generalFormula} ariaLabel="Fórmula cuadrática" />
 			</div>
 			<div class="rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-center backdrop-blur">

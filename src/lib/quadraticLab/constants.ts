@@ -61,7 +61,7 @@ export const secantFormula =
 
 export const detailItems = [
   {
-    title: "¿Por qué fórmula general?",
+    title: "¿Por qué Fórmula cuadrática?",
     body:
       "La fórmula cuadrática entrega una solución cerrada basada en el discriminante. Incluso para raíces complejas mantenemos precisión exacta."
   },
