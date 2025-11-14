@@ -36,15 +36,15 @@
 		</div>
 		<div class="flex flex-1 flex-col gap-4">
 			<div class="rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-center backdrop-blur">
-				<p class="text-xs uppercase tracking-widest text-white/80">Fórmula cuadrática</p>
+				<p class="text-xs uppercase tracking-widest text-white">Fórmula cuadrática</p>
 				<MathBlock expression={generalFormula} ariaLabel="Fórmula cuadrática" />
 			</div>
 			<div class="rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-center backdrop-blur">
-				<p class="text-xs uppercase tracking-widest text-white/80">Método de la secante</p>
+				<p class="text-xs uppercase tracking-widest text-white">Método de la secante</p>
 				<MathBlock expression={secantFormula} ariaLabel="Fórmula de la secante" />
 			</div>
 			<div class="rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-center backdrop-blur">
-				<p class="text-xs uppercase tracking-widest text-white/80">Ecuación actual</p>
+				<p class="text-xs uppercase tracking-widest text-white">Ecuación actual</p>
 				<MathBlock expression={polynomialLatex} ariaLabel="Ecuación cuadrática actual" />
 			</div>
 		</div>
