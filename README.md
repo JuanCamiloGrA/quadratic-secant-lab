@@ -17,7 +17,7 @@ Aplicación construida con **SvelteKit + Tailwind + LayerChart** que permite est
 ## Instalación
 
 ```bash
-bun install
+deno install
 ```
 
 > ¿Prefieres npm? Ejecuta `npm install` y los scripts funcionarán igual.
@@ -26,14 +26,14 @@ bun install
 
 ```bash
 # Desarrollo con recarga en caliente
-bun run dev
+deno run dev
 
 # Revisión estática y de tipos
-bun run check
+deno run check
 
 # Build de producción
-bun run build
+deno run build
 
 # Vista previa local del build
-bun run preview
+deno run preview
 ```
