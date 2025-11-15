@@ -22,8 +22,8 @@
 	// State
 	let coefficients: QuadraticCoefficients = { a: 2.5, b: -7.1, c: 3.4 };
 	let secantConfig: Record<SecantKey, number> = {
-		x0: -1,
-		x1: 3.2,
+		x0: 2.0,
+		x1: 2.2,
 		tolerance: 1e-5,
 		maxIterations: 18
 	};
