@@ -41,7 +41,7 @@
 					x: series.data.map((p) => p.x),
 					y: series.data.map((p) => p.y),
 					type: "scatter",
-					mode: "lines+markers",
+					mode: "lines",
 					name: "Iteraciones del método",
 					line: {
 						color: "rgb(239, 68, 68)",
