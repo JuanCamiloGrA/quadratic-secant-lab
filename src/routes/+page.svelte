@@ -145,7 +145,6 @@
 						{secantResult}
 						{totalIterations}
 						{selectedIteration}
-						badgeTone={secantBadgeTone}
 						badgeLabel={secantPresentation.label}
 						{toneClasses}
 						{BadgeIcon}
