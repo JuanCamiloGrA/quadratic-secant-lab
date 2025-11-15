@@ -20,7 +20,7 @@
 	import IterationTable from "$lib/components/sections/IterationTable.svelte";
 
 	// State
-	let coefficients: QuadraticCoefficients = { a: 1, b: -4, c: 3 };
+	let coefficients: QuadraticCoefficients = { a: 2.5, b: -7.1, c: 3.4 };
 	let secantConfig: Record<SecantKey, number> = {
 		x0: -1,
 		x1: 3.2,
